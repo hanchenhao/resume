@@ -3,7 +3,7 @@ $(function() {
     c.load("<p><div class='bef_comment writecode'>/**</div>");
     c.load("<div class='bef_comment writecode'>&nbsp;*</div>");
     c.load("<div class='bef_comment writecode'>&nbsp;*我是韩陈昊,一名iOS程序员</div>");
-    c.load("<div class='bef_comment writecode'>&nbsp;*我的主要工作是做一些简单的APP</div>", 2000);
+    c.load("<div class='bef_comment writecode'>&nbsp;*我的主要工作是做一些简单的APP</div>", 1000);
     c.load("<div class='bef_comment writecode'>&nbsp;*/</div></p>");
     c.load("<p><div class='bef_comment writecode'>/**</div>");
     c.load("<div class='bef_comment writecode'>&nbsp;*先来写点代码?</div>");
@@ -277,7 +277,7 @@ Coder.prototype = {
     load: function(code, second) {
         var dom = this._dom;
         var o = this;
-        var _second = second ? second : 1000;
+        var _second = second ? second : 500;
         _second = m + _second;
         setTimeout(function() {
             $('#' + dom).scrollTop($('#' + dom)[0].scrollHeight);
