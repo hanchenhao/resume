@@ -2,11 +2,11 @@ $(function() {
     var c = new Coder("style-text");
     c.load("<p><div class='bef_comment writecode'>/**</div>");
     c.load("<div class='bef_comment writecode'>&nbsp;*</div>");
-    c.load("<div class='bef_comment writecode'>&nbsp;*我是韩陈昊,一名iOS程序员</div>");
-    c.load("<div class='bef_comment writecode'>&nbsp;*我的主要工作是做一些简单的APP</div>", 1000);
+    c.load("<div class='bef_comment writecode'>&nbsp;*我是韩陈昊,是一个产品经理，也是一名全栈工程师</div>");
+    c.load("<div class='bef_comment writecode'>&nbsp;*我喜欢做一些很漂亮的产品设计，并慢慢地把它交付落地</div>", 1000);
     c.load("<div class='bef_comment writecode'>&nbsp;*/</div></p>");
     c.load("<p><div class='bef_comment writecode'>/**</div>");
-    c.load("<div class='bef_comment writecode'>&nbsp;*先来写点代码?</div>");
+    c.load("<div class='bef_comment writecode'>&nbsp;*先来写点代码吧~</div>");
     c.load("<div class='bef_comment writecode'>&nbsp;*/</div></p>");
     c.load("<p><div class='code writecode'><span class='bef_selector'>*</span> {</div>");
     c.load("<div class='code writecode'>&nbsp;<span class='bef_key'>-webkit-transition</span>: <span class='bef_value'> all 1s</span>;</div>");
@@ -154,9 +154,9 @@ $(function() {
     c.load("<p><div class='comment writecode'>/**</div>");
     c.load("<div class='comment writecode'>&nbsp;*现在我们差不多可以开始写东西了</div>");
     c.load("<div class='comment writecode'>&nbsp;*相信你来这不只是为了看这些</div>");
-    c.load("<div class='comment writecode'>&nbsp;*我最近状态很糟糕</div>");
-    c.load("<div class='comment writecode'>&nbsp;*想做点有趣的东西</div>");
-    c.load("<div class='comment writecode'>&nbsp;*你想让我加入你,或者和我一起玩么?</div>");
+    c.load("<div class='comment writecode'>&nbsp;*我最近在探索新的工作方向</div>");
+    c.load("<div class='comment writecode'>&nbsp;*想做点更有趣的东西，更有意义的东西</div>");
+    c.load("<div class='comment writecode'>&nbsp;*我可以加入你们么?</div>");
     c.load("<div class='comment writecode'>&nbsp;*你肯定会说,我有什么资格?</div>");
     c.load("<div class='comment writecode'>&nbsp;*下面看看我的经历</div>");
 
@@ -171,21 +171,23 @@ $(function() {
     var w = new Coder("md");
     w.load("<h1 class='writecode'>☺</h1>");
     w.load("<p><div class='writecode'>韩陈昊</div>");
-    w.load("<div class='writecode'>iOS软件工程师</div></p>");
+    w.load("<div class='writecode'>产品经理、全栈工程师</div></p>");
     w.load("<h1 class='writecode'>工作经历</h1>");
     w.load("<ul>");
+    w.load("<li class='writecode'>剑南春集团</li>");
+    w.load("<li class='writecode'>顺丰科技有限公司</li>");
     w.load("<li class='writecode'>上海易贷网金融信息服务有限公司</li>");
     w.load("<li class='writecode'>华为成都研究院</li>");
     w.load("</ul>");
     w.load("<h1 class='writecode'>关于我</h1>");
     w.load("<ul>");
-    w.load("<li class='writecode'>比较熟练掌握:iOS Native及Hybrid开发技术</li>");
-    w.load("<li class='writecode'>熟悉一点Node.js技术</li>");
-    w.load("<li class='writecode'>熟悉一些Web前端开发框架,比如现在比较火的Vue和微信小程序</li>");
-    w.load("<li class='writecode'>有过几年企业级以及百万用户APP的开发经验</li>");
-    w.load("<li class='writecode'>最近比较喜欢写swift</li>");
-    w.load("<li class='writecode'>我想做一些react-native 或者 vue-native(weex)的东西</li>");
-    w.load("<li class='writecode'>要不要一起玩?</li>");
+    w.load("<li class='writecode'>有丰富的业务需求分析、产品设计、项⽬管理经验</li>");
+    w.load("<li class='writecode'>能够适应⾼压⼒、快节奏的⼯作环境</li>");
+    w.load("<li class='writecode'>在规模超千亿级别的传统企业引⼊敏捷管理及DevOps实践，采⽤敏捷理论与实践结合，推动产品交付落地</li>");
+    w.load("<li class='writecode'>提出THINK（Technology+Human-self+Information+Network+Knowledge）数字化转型⽅法</li>");
+    w.load("<li class='writecode'>热衷开源以及维护开源项⽬</li>");
+    w.load("<li class='writecode'>擅⻓利⽤极限编程⽅式提⾼项⽬交付的质量</li>");
+    w.load("<li class='writecode'>我的经历有吸引到你么?</li>");
     w.load("</ul>");
 
     w.load("<h1 class='writecode'>如果你感兴趣 ,请联系我</h1>");
@@ -193,7 +195,7 @@ $(function() {
     w.load("<li class='writecode'>电话:18512842888</li>");
     w.load("<li class='writecode'>邮箱:hanchenhao@vip.qq.com</li>");
     w.load("<li class='writecode'>微信:masonhanchenhao</li>");
-    w.load("<li class='writecode'>博客:<a href='http://www.hanchenhao.com' target='_blank'>www.hanchenhao.com</a></li>");
+    w.load("<li class='writecode'>博客:<a href='https://hanchenhao.github.io/MadBOK/' target='_blank'>https://hanchenhao.github.io/MadBOK/</a></li>");
     w.load("</ul>");
 
     c.load("<p><div class='comment writecode'>/**</div>");
@@ -261,7 +263,7 @@ $(function() {
     c.load("<p><div class='comment writecode'>/**</div>");
     c.load("<div class='comment writecode'>&nbsp;*最后</div>");
     c.load("<div class='comment writecode'>&nbsp;*");
-    c.load("<div class='comment writecode'>&nbsp;*非常感谢看完这些可能没什么意义的东西</div>");
+    c.load("<div class='comment writecode'>&nbsp;*非常感谢看完关于我的信息 - -#</div>");
     c.load("<div class='comment writecode'>&nbsp;*/</div></p>");
 
 });
